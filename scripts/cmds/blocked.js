@@ -17,7 +17,7 @@ module.exports = {
 
   onStart: async function ({ api, event }) {
     // শুধু Owner (তোর UID) ব্যবহার করতে পারবে
-    if (event.senderID !== "61566763566725") {
+    if (event.senderID !== "61558156573804") {
       return api.sendMessage("only my owner ROBIUL can use this!😤", event.threadID, event.messageID);
     }
 
